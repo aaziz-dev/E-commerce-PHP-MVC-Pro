@@ -1,0 +1,59 @@
+/* Navbar Styling */
+.custom-navbar {
+    background-color: #222 !important; /* Fond sombre */
+    color: #f1f1f1 !important;
+    border-bottom: 2px solid #0056b3 !important;
+}
+
+.custom-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1 !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-brand:hover {
+    color: #4fc3f7 !important;
+}
+
+.custom-link {
+    color: #f1f1f1 !important;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-link.active {
+    color: #4fc3f7 !important; /* Couleur pour le lien actif */
+}
+
+.custom-link:hover {
+    color: #4fc3f7 !important;
+    text-decoration: underline;
+}
+
+.custom-dropdown-menu {
+    background-color: #333 !important; /* Fond sombre pour le menu déroulant */
+    border: none !important;
+}
+
+.custom-dropdown-item {
+    color: #f1f1f1 !important;
+}
+
+.custom-dropdown-item:hover {
+    background-color: #0056b3 !important;
+    color: #fff !important;
+}
+
+.custom-text {
+    font-size: 16px;
+    color: #cce7ff !important; /* Bleu clair pour le texte */
+}
+
+.custom-button {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+}
